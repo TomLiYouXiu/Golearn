@@ -39,6 +39,7 @@ func grade(score int) string {
 	}
 	return g
 }
+
 func main() {
 	const filename = "abc.txt"
 	if contents, err := ioutil.ReadFile(filename); err != nil {
