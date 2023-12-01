@@ -63,3 +63,5 @@ func main() {
 ## 如何扩充系统类型或者别人的类型
 
 <img src="https://pic.imgdb.cn/item/656826efc458853aef6a140c.jpg" style="zoom:50%;" />
+
+<img src="https://pic.imgdb.cn/item/65685c48c458853aef166b92.jpg" style="zoom:50%;" />
