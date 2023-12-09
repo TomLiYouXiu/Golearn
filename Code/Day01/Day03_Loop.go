@@ -7,6 +7,7 @@ import (
 	"strconv"
 )
 
+//将数字转换为二进制
 func convertToBin(n int) string {
 	result := ""
 	if n == 0 {
@@ -32,6 +33,7 @@ func printFile(filename string) {
 		fmt.Println(scanner.Text())
 	}
 }
+// 无限循环
 func forever() {
 	//类似while
 	for {
