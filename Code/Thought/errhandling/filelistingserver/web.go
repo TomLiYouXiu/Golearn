@@ -39,12 +39,12 @@ func errWrapper(handle appHandler) func(http.ResponseWriter, *http.Request) {
 			// 记录错误日志
 			slog.Warn("Error handling request:", err.Error())
 
-			if userErr, ok := err.(userError); ok {
-				http.Error(writer,
-					userError.Message(),
-					http.StatusBadRequest)
-				return
-			}
+			//if userErr, ok := err.(userError); ok {
+			//	http.Error(writer,
+			//		userError.Message(),
+			//		http.StatusBadRequest)
+			//	return
+			//}
 			// 根据错误类型确定 HTTP 状态码
 			code := http.StatusOK
 			switch {
